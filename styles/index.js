@@ -3,6 +3,10 @@ import { StyleSheet } from "react-native";
 export const TourisTourStyles = StyleSheet.create({
   container: {
     backgroundColor: "#fff",
+    minHeight: 192,
+  },
+  backdrop: {
+    backgroundColor: "rgba(0,0,0,5)",
   },
 });
 
@@ -14,6 +18,7 @@ export const ShopStyle = StyleSheet.create({
       width: 0,
       height: 7,
     },
+
     shadowOpacity: 0.43,
     shadowRadius: 9.51,
     elevation: 15,

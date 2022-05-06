@@ -1,8 +1,8 @@
 {
   "expo": {
-    "name": "prototipo1",
-    "slug": "prototipo1",
-    "version": "1.0.0",
+    "name": "TourisTour",
+    "slug": "TourisTour",
+    "version": "0.0.1",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "splash": {
