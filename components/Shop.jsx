@@ -1,5 +1,5 @@
 import PropTypes from "prop-types";
-import {TourisTourStyles, ShopStyle } from "../styles";
+import { TourisTourStyles, ShopStyle } from "../styles";
 import React from "react";
 import { Button, Modal, Card, Text } from "@ui-kitten/components";
 
@@ -10,8 +10,6 @@ const Shop = ({ name, description, image, owner }) => {
   return (
     <View style={ShopStyle.container}>
       <Text style={ShopStyle.name}>{name}</Text>
-      <Text style={ShopStyle.owner}>{owner}</Text>
-      <Text style={ShopStyle.description}>{description}</Text>
       <Image style={ShopStyle.image} resizeMode="center" source={image} />
       <Button onPress={() => setVisible(true)}>Ver mas...</Button>
       <Modal
@@ -20,7 +18,9 @@ const Shop = ({ name, description, image, owner }) => {
         onBackdropPress={() => setVisible(false)}
       >
         <Card disabled={true}>
-          <Text>Esto es una prueba xD</Text>
+          <Text style={ShopStyle.name}>{name}</Text>
+          <Text style={ShopStyle.owner}>{owner}</Text>
+          <Text style={ShopStyle.description}>{description}</Text>
           <Button onPress={() => setVisible(false)}>Salir</Button>
         </Card>
       </Modal>
