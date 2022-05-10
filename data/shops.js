@@ -1,32 +1,32 @@
-import dildo from "../images/Dildo.jpg";
-import marimba from "../images/Marimba.jpg";
-import perico from "../images/Perico.jpg";
-import viveres from "../images/Viveres.jpg";
+import tienda1 from "../images/tienda1.jpg";
+import tienda2 from "../images/tienda2.jpg";
+import tienda3 from "../images/tienda3.jpg"
+import tienda4 from "../images/tienda4.jpg";
 
 const shops = [
   {
-    name: "Tienda de dildos don Jose",
-    description: "Vendo dilos reperros ;)",
-    image: dildo,
+    name: "Tienda la bendicion",
+    description: "Vendo bendiciones",
+    image: tienda1,
     owner: "Don jose",
   },
   {
-    name: "Viveres y bancarrota",
-    description: "Lleve aceite par,a sus niños :)",
-    image: viveres,
-    owner: "Diego el aceitoso",
+    name: "Viveres la cabañita",
+    description: "Lleve aceite sus arepas",
+    image: tienda2,
+    owner: "Don Armando",
   },
   {
-    name: "Perico don Julian",
-    description: "Vendo perico xD",
-    image: perico,
-    owner: "Julian",
+    name: "Pa llevar",
+    description: "comida pa tus viajes",
+    image: tienda3,
+    owner: "Don Julian",
   },
   {
-    name: "Marimba maicol",
-    description: "Marimba de la buena",
-    image: marimba,
-    owner: "Maicol",
+    name: "Mochilas Wuayu",
+    description: "Mochilas artesanales Wuayu",
+    image: tienda4,
+    owner: "Don Wuayu",
   },
 ];
 
