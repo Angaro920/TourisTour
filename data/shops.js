@@ -1,7 +1,7 @@
-import tienda1 from "../images/tienda1.jpg";
-import tienda2 from "../images/tienda2.jpg";
-import tienda3 from "../images/tienda3.jpg"
-import tienda4 from "../images/tienda4.jpg";
+import tienda1 from "../images/Tienda1.jpg";
+import tienda2 from "../images/Tienda2.jpg";
+import tienda3 from "../images/Tienda3.jpg";
+import tienda4 from "../images/Tienda4.jpg";
 
 const shops = [
   {
@@ -26,7 +26,7 @@ const shops = [
     name: "Mochilas Wuayu",
     description: "Mochilas artesanales Wuayu",
     image: tienda4,
-    owner: "Don Wuayu",
+    owner: "Don WuayuS",
   },
 ];
 
