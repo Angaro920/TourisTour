@@ -17,10 +17,11 @@ const Shop = ({ name, description, image, owner }) => {
         backdropStyle={TourisTourStyles.backdrop}
         onBackdropPress={() => setVisible(false)}
       >
-        <Card disabled={true}>
+        <Card style={ShopStyle.card} disabled={true}>
           <Text style={ShopStyle.name}>{name}</Text>
           <Text style={ShopStyle.owner}>{owner}</Text>
           <Text style={ShopStyle.description}>{description}</Text>
+          <Image style={ShopStyle.imageDes} resizeMode="center" source={image}/>
           <Button onPress={() => setVisible(false)}>Salir</Button>
         </Card>
       </Modal>

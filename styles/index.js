@@ -28,7 +28,10 @@ export const ShopStyle = StyleSheet.create({
   image: {
     width: "100%",
     height: 200,
-    
+  },
+  imageDes: {
+    width: "100%",
+    height: 80,
   },
   name: {
     textAlign: "center",
@@ -37,11 +40,13 @@ export const ShopStyle = StyleSheet.create({
   },
   description: {
     textAlign: "center",
-    fontWeight: "bold",
-    fontSize: 10,
+    fontSize: 25,
   },
   owner: {
     textAlign: "center",
-    fontSize: 10,
+    fontSize: 25,
   },
+  card:{
+    position:"relative",
+  }
 });
